@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+:root {
+    /* Colors */ 
+    --primary-color: rgb(27, 31, 41);
+    --secondary-color: rgb(237, 242, 252);
+    --dark-color:rgb(209, 7, 21);
+    --yellow-color: rgb(253, 184, 19);
+}
+.dark-theme {
+    --primary-color: rgb(237, 242, 252);
+    --secondary-color: rgb(27, 31, 41);
+}
+body {
+    background: var(--primary-color);
+}
+#icon {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 10px;
+}
+.moon{
+    color: var(--yellow-color);
+}
+.sun{
+    color: var(--dark-color);
+}
